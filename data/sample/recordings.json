@@ -1,0 +1,2717 @@
+[
+  {
+    "schema_version": "1",
+    "event_id": "churchill-1940-06-04",
+    "asset_id": "asset-churchill",
+    "recording_version_id": "churchill-full",
+    "transcript_revision_id": "tr-churchill-full-1",
+    "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+    "event_date": "1940-06-04",
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-churchill-full",
+    "duration_ms": 204200,
+    "rights_class": "approved",
+    "availability_state": "online",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#churchill-full",
+    "coverage": [
+      {
+        "start_ms": 5000,
+        "end_ms": 19850
+      },
+      {
+        "start_ms": 120000,
+        "end_ms": 141350
+      },
+      {
+        "start_ms": 180000,
+        "end_ms": 194200
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "The",
+        "start_ms": 5000,
+        "end_ms": 5550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0001",
+        "text": "catalogue",
+        "start_ms": 5650,
+        "end_ms": 6200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0002",
+        "text": "introduction",
+        "start_ms": 6300,
+        "end_ms": 6850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0003",
+        "text": "describes",
+        "start_ms": 6950,
+        "end_ms": 7500,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0004",
+        "text": "a",
+        "start_ms": 7600,
+        "end_ms": 8150,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0005",
+        "text": "wartime",
+        "start_ms": 8250,
+        "end_ms": 8800,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0006",
+        "text": "address",
+        "start_ms": 8900,
+        "end_ms": 9450,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0007",
+        "text": "after",
+        "start_ms": 9550,
+        "end_ms": 10100,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0008",
+        "text": "an",
+        "start_ms": 10200,
+        "end_ms": 10750,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0009",
+        "text": "evacuation.",
+        "start_ms": 10850,
+        "end_ms": 11400,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0010",
+        "text": "This",
+        "start_ms": 11500,
+        "end_ms": 12050,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0011",
+        "text": "introduction",
+        "start_ms": 12150,
+        "end_ms": 12700,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0012",
+        "text": "is",
+        "start_ms": 12800,
+        "end_ms": 13350,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0013",
+        "text": "original",
+        "start_ms": 13450,
+        "end_ms": 14000,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0014",
+        "text": "synthetic",
+        "start_ms": 14100,
+        "end_ms": 14650,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0015",
+        "text": "fixture",
+        "start_ms": 14750,
+        "end_ms": 15300,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0016",
+        "text": "prose",
+        "start_ms": 15400,
+        "end_ms": 15950,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0017",
+        "text": "and",
+        "start_ms": 16050,
+        "end_ms": 16600,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0018",
+        "text": "is",
+        "start_ms": 16700,
+        "end_ms": 17250,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0019",
+        "text": "not",
+        "start_ms": 17350,
+        "end_ms": 17900,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0020",
+        "text": "a",
+        "start_ms": 18000,
+        "end_ms": 18550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0021",
+        "text": "historical",
+        "start_ms": 18650,
+        "end_ms": 19200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0022",
+        "text": "quotation.",
+        "start_ms": 19300,
+        "end_ms": 19850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0023",
+        "text": "We",
+        "start_ms": 120000,
+        "end_ms": 120550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0024",
+        "text": "shall",
+        "start_ms": 120650,
+        "end_ms": 121200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0025",
+        "text": "fight",
+        "start_ms": 121300,
+        "end_ms": 121850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0026",
+        "text": "on",
+        "start_ms": 121950,
+        "end_ms": 122500,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0027",
+        "text": "the",
+        "start_ms": 122600,
+        "end_ms": 123150,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0028",
+        "text": "beaches,",
+        "start_ms": 123250,
+        "end_ms": 123800,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0029",
+        "text": "we",
+        "start_ms": 123900,
+        "end_ms": 124450,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0030",
+        "text": "shall",
+        "start_ms": 124550,
+        "end_ms": 125100,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0031",
+        "text": "fight",
+        "start_ms": 125200,
+        "end_ms": 125750,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0032",
+        "text": "on",
+        "start_ms": 125850,
+        "end_ms": 126400,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0033",
+        "text": "the",
+        "start_ms": 126500,
+        "end_ms": 127050,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0034",
+        "text": "landing",
+        "start_ms": 127150,
+        "end_ms": 127700,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0035",
+        "text": "grounds,",
+        "start_ms": 127800,
+        "end_ms": 128350,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0036",
+        "text": "we",
+        "start_ms": 128450,
+        "end_ms": 129000,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0037",
+        "text": "shall",
+        "start_ms": 129100,
+        "end_ms": 129650,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0038",
+        "text": "fight",
+        "start_ms": 129750,
+        "end_ms": 130300,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0039",
+        "text": "in",
+        "start_ms": 130400,
+        "end_ms": 130950,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0040",
+        "text": "the",
+        "start_ms": 131050,
+        "end_ms": 131600,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0041",
+        "text": "fields",
+        "start_ms": 131700,
+        "end_ms": 132250,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0042",
+        "text": "and",
+        "start_ms": 132350,
+        "end_ms": 132900,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0043",
+        "text": "in",
+        "start_ms": 133000,
+        "end_ms": 133550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0044",
+        "text": "the",
+        "start_ms": 133650,
+        "end_ms": 134200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0045",
+        "text": "streets,",
+        "start_ms": 134300,
+        "end_ms": 134850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0046",
+        "text": "we",
+        "start_ms": 134950,
+        "end_ms": 135500,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0047",
+        "text": "shall",
+        "start_ms": 135600,
+        "end_ms": 136150,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0048",
+        "text": "fight",
+        "start_ms": 136250,
+        "end_ms": 136800,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0049",
+        "text": "in",
+        "start_ms": 136900,
+        "end_ms": 137450,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0050",
+        "text": "the",
+        "start_ms": 137550,
+        "end_ms": 138100,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0051",
+        "text": "hills;",
+        "start_ms": 138200,
+        "end_ms": 138750,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0052",
+        "text": "we",
+        "start_ms": 138850,
+        "end_ms": 139400,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0053",
+        "text": "shall",
+        "start_ms": 139500,
+        "end_ms": 140050,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0054",
+        "text": "never",
+        "start_ms": 140150,
+        "end_ms": 140700,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0055",
+        "text": "surrender.",
+        "start_ms": 140800,
+        "end_ms": 141350,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0056",
+        "text": "This",
+        "start_ms": 180000,
+        "end_ms": 180550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0057",
+        "text": "test",
+        "start_ms": 180650,
+        "end_ms": 181200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0058",
+        "text": "commentary",
+        "start_ms": 181300,
+        "end_ms": 181850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0059",
+        "text": "describes",
+        "start_ms": 181950,
+        "end_ms": 182500,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0060",
+        "text": "the",
+        "start_ms": 182600,
+        "end_ms": 183150,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0061",
+        "text": "archive",
+        "start_ms": 183250,
+        "end_ms": 183800,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0062",
+        "text": "registration",
+        "start_ms": 183900,
+        "end_ms": 184450,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0063",
+        "text": "process",
+        "start_ms": 184550,
+        "end_ms": 185100,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0064",
+        "text": "and",
+        "start_ms": 185200,
+        "end_ms": 185750,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0065",
+        "text": "the",
+        "start_ms": 185850,
+        "end_ms": 186400,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0066",
+        "text": "preservation",
+        "start_ms": 186500,
+        "end_ms": 187050,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0067",
+        "text": "of",
+        "start_ms": 187150,
+        "end_ms": 187700,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0068",
+        "text": "a",
+        "start_ms": 187800,
+        "end_ms": 188350,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0069",
+        "text": "physical",
+        "start_ms": 188450,
+        "end_ms": 189000,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0070",
+        "text": "carrier.",
+        "start_ms": 189100,
+        "end_ms": 189650,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0071",
+        "text": "Operators",
+        "start_ms": 189750,
+        "end_ms": 190300,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0072",
+        "text": "record",
+        "start_ms": 190400,
+        "end_ms": 190950,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0073",
+        "text": "the",
+        "start_ms": 191050,
+        "end_ms": 191600,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0074",
+        "text": "shelf",
+        "start_ms": 191700,
+        "end_ms": 192250,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0075",
+        "text": "reference",
+        "start_ms": 192350,
+        "end_ms": 192900,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0076",
+        "text": "before",
+        "start_ms": 193000,
+        "end_ms": 193550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0077",
+        "text": "delivery.",
+        "start_ms": 193650,
+        "end_ms": 194200,
+        "language": "en",
+        "confidence": 0.99
+      }
+    ],
+    "untimed_text": "",
+    "source_metadata": [],
+    "quality_flags": []
+  },
+  {
+    "schema_version": "1",
+    "event_id": "churchill-1940-06-04",
+    "asset_id": "asset-churchill",
+    "recording_version_id": "churchill-edit",
+    "transcript_revision_id": "tr-churchill-edit-1",
+    "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+    "event_date": "1940-06-04",
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-churchill-edit",
+    "duration_ms": 49350,
+    "rights_class": "approved",
+    "availability_state": "offline",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#churchill-edit",
+    "coverage": [
+      {
+        "start_ms": 18000,
+        "end_ms": 39350
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "We",
+        "start_ms": 18000,
+        "end_ms": 18550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0001",
+        "text": "shall",
+        "start_ms": 18650,
+        "end_ms": 19200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0002",
+        "text": "fight",
+        "start_ms": 19300,
+        "end_ms": 19850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0003",
+        "text": "on",
+        "start_ms": 19950,
+        "end_ms": 20500,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0004",
+        "text": "the",
+        "start_ms": 20600,
+        "end_ms": 21150,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0005",
+        "text": "beaches,",
+        "start_ms": 21250,
+        "end_ms": 21800,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0006",
+        "text": "we",
+        "start_ms": 21900,
+        "end_ms": 22450,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0007",
+        "text": "shall",
+        "start_ms": 22550,
+        "end_ms": 23100,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0008",
+        "text": "fight",
+        "start_ms": 23200,
+        "end_ms": 23750,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0009",
+        "text": "on",
+        "start_ms": 23850,
+        "end_ms": 24400,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0010",
+        "text": "the",
+        "start_ms": 24500,
+        "end_ms": 25050,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0011",
+        "text": "landing",
+        "start_ms": 25150,
+        "end_ms": 25700,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0012",
+        "text": "grounds,",
+        "start_ms": 25800,
+        "end_ms": 26350,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0013",
+        "text": "we",
+        "start_ms": 26450,
+        "end_ms": 27000,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0014",
+        "text": "shall",
+        "start_ms": 27100,
+        "end_ms": 27650,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0015",
+        "text": "fight",
+        "start_ms": 27750,
+        "end_ms": 28300,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0016",
+        "text": "in",
+        "start_ms": 28400,
+        "end_ms": 28950,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0017",
+        "text": "the",
+        "start_ms": 29050,
+        "end_ms": 29600,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0018",
+        "text": "fields",
+        "start_ms": 29700,
+        "end_ms": 30250,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0019",
+        "text": "and",
+        "start_ms": 30350,
+        "end_ms": 30900,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0020",
+        "text": "in",
+        "start_ms": 31000,
+        "end_ms": 31550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0021",
+        "text": "the",
+        "start_ms": 31650,
+        "end_ms": 32200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0022",
+        "text": "streets,",
+        "start_ms": 32300,
+        "end_ms": 32850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0023",
+        "text": "we",
+        "start_ms": 32950,
+        "end_ms": 33500,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0024",
+        "text": "shall",
+        "start_ms": 33600,
+        "end_ms": 34150,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0025",
+        "text": "fight",
+        "start_ms": 34250,
+        "end_ms": 34800,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0026",
+        "text": "in",
+        "start_ms": 34900,
+        "end_ms": 35450,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0027",
+        "text": "the",
+        "start_ms": 35550,
+        "end_ms": 36100,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0028",
+        "text": "hills;",
+        "start_ms": 36200,
+        "end_ms": 36750,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0029",
+        "text": "we",
+        "start_ms": 36850,
+        "end_ms": 37400,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0030",
+        "text": "shall",
+        "start_ms": 37500,
+        "end_ms": 38050,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0031",
+        "text": "never",
+        "start_ms": 38150,
+        "end_ms": 38700,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0032",
+        "text": "surrender.",
+        "start_ms": 38800,
+        "end_ms": 39350,
+        "language": "en",
+        "confidence": 0.99
+      }
+    ],
+    "untimed_text": "",
+    "source_metadata": [],
+    "quality_flags": []
+  },
+  {
+    "schema_version": "1",
+    "event_id": "event-orchard",
+    "asset_id": "asset-orchard",
+    "recording_version_id": "orchard",
+    "transcript_revision_id": "tr-orchard-1",
+    "title": "Orchard oral history — synthetic",
+    "event_date": null,
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-orchard",
+    "duration_ms": 37950,
+    "rights_class": "approved",
+    "availability_state": "online",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#orchard",
+    "coverage": [
+      {
+        "start_ms": 4000,
+        "end_ms": 27950
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "The",
+        "start_ms": 4000,
+        "end_ms": 4550,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0001",
+        "text": "gardeners",
+        "start_ms": 4650,
+        "end_ms": 5200,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0002",
+        "text": "planted",
+        "start_ms": 5300,
+        "end_ms": 5850,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0003",
+        "text": "apple",
+        "start_ms": 5950,
+        "end_ms": 6500,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0004",
+        "text": "trees",
+        "start_ms": 6600,
+        "end_ms": 7150,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0005",
+        "text": "beside",
+        "start_ms": 7250,
+        "end_ms": 7800,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0006",
+        "text": "the",
+        "start_ms": 7900,
+        "end_ms": 8450,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0007",
+        "text": "river.",
+        "start_ms": 8550,
+        "end_ms": 9100,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0008",
+        "text": "Each",
+        "start_ms": 9200,
+        "end_ms": 9750,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0009",
+        "text": "spring",
+        "start_ms": 9850,
+        "end_ms": 10400,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0010",
+        "text": "they",
+        "start_ms": 10500,
+        "end_ms": 11050,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0011",
+        "text": "checked",
+        "start_ms": 11150,
+        "end_ms": 11700,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0012",
+        "text": "the",
+        "start_ms": 11800,
+        "end_ms": 12350,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0013",
+        "text": "soil",
+        "start_ms": 12450,
+        "end_ms": 13000,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0014",
+        "text": "and",
+        "start_ms": 13100,
+        "end_ms": 13650,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0015",
+        "text": "pruned",
+        "start_ms": 13750,
+        "end_ms": 14300,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0016",
+        "text": "damaged",
+        "start_ms": 14400,
+        "end_ms": 14950,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0017",
+        "text": "branches.",
+        "start_ms": 15050,
+        "end_ms": 15600,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0018",
+        "text": "Rainfall",
+        "start_ms": 15700,
+        "end_ms": 16250,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0019",
+        "text": "helped",
+        "start_ms": 16350,
+        "end_ms": 16900,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0020",
+        "text": "the",
+        "start_ms": 17000,
+        "end_ms": 17550,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0021",
+        "text": "roots",
+        "start_ms": 17650,
+        "end_ms": 18200,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0022",
+        "text": "grow",
+        "start_ms": 18300,
+        "end_ms": 18850,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0023",
+        "text": "through",
+        "start_ms": 18950,
+        "end_ms": 19500,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0024",
+        "text": "summer.",
+        "start_ms": 19600,
+        "end_ms": 20150,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0025",
+        "text": "The",
+        "start_ms": 20250,
+        "end_ms": 20800,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0026",
+        "text": "harvest",
+        "start_ms": 20900,
+        "end_ms": 21450,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0027",
+        "text": "supplied",
+        "start_ms": 21550,
+        "end_ms": 22100,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0028",
+        "text": "fresh",
+        "start_ms": 22200,
+        "end_ms": 22750,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0029",
+        "text": "fruit",
+        "start_ms": 22850,
+        "end_ms": 23400,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0030",
+        "text": "to",
+        "start_ms": 23500,
+        "end_ms": 24050,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0031",
+        "text": "the",
+        "start_ms": 24150,
+        "end_ms": 24700,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0032",
+        "text": "village",
+        "start_ms": 24800,
+        "end_ms": 25350,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0033",
+        "text": "market",
+        "start_ms": 25450,
+        "end_ms": 26000,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0034",
+        "text": "and",
+        "start_ms": 26100,
+        "end_ms": 26650,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0035",
+        "text": "local",
+        "start_ms": 26750,
+        "end_ms": 27300,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0036",
+        "text": "schools.",
+        "start_ms": 27400,
+        "end_ms": 27950,
+        "language": "en",
+        "confidence": 0.98
+      }
+    ],
+    "untimed_text": "",
+    "source_metadata": [],
+    "quality_flags": []
+  },
+  {
+    "schema_version": "1",
+    "event_id": "event-flood",
+    "asset_id": "asset-flood",
+    "recording_version_id": "flood",
+    "transcript_revision_id": "tr-flood-1",
+    "title": "Flood evacuation account — synthetic partial transcript",
+    "event_date": null,
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-flood",
+    "duration_ms": 115300,
+    "rights_class": "approved",
+    "availability_state": "online",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#flood",
+    "coverage": [
+      {
+        "start_ms": 10000,
+        "end_ms": 32000
+      },
+      {
+        "start_ms": 95000,
+        "end_ms": 105300
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "Rising",
+        "start_ms": 10000,
+        "end_ms": 10550,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0001",
+        "text": "water",
+        "start_ms": 10650,
+        "end_ms": 11200,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0002",
+        "text": "entered",
+        "start_ms": 11300,
+        "end_ms": 11850,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0003",
+        "text": "the",
+        "start_ms": 11950,
+        "end_ms": 12500,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0004",
+        "text": "houses",
+        "start_ms": 12600,
+        "end_ms": 13150,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0005",
+        "text": "during",
+        "start_ms": 13250,
+        "end_ms": 13800,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0006",
+        "text": "the",
+        "start_ms": 13900,
+        "end_ms": 14450,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0007",
+        "text": "night.",
+        "start_ms": 14550,
+        "end_ms": 15100,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0008",
+        "text": "Volunteers",
+        "start_ms": 15200,
+        "end_ms": 15750,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0009",
+        "text": "carried",
+        "start_ms": 15850,
+        "end_ms": 16400,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0010",
+        "text": "families",
+        "start_ms": 16500,
+        "end_ms": 17050,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0011",
+        "text": "to",
+        "start_ms": 17150,
+        "end_ms": 17700,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0012",
+        "text": "higher",
+        "start_ms": 17800,
+        "end_ms": 18350,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0013",
+        "text": "ground",
+        "start_ms": 18450,
+        "end_ms": 19000,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0014",
+        "text": "in",
+        "start_ms": 19100,
+        "end_ms": 19650,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0015",
+        "text": "small",
+        "start_ms": 19750,
+        "end_ms": 20300,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0016",
+        "text": "boats.",
+        "start_ms": 20400,
+        "end_ms": 20950,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0017",
+        "text": "The",
+        "start_ms": 21050,
+        "end_ms": 21600,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0018",
+        "text": "community",
+        "start_ms": 21700,
+        "end_ms": 22250,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0019",
+        "text": "centre",
+        "start_ms": 22350,
+        "end_ms": 22900,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0020",
+        "text": "provided",
+        "start_ms": 23000,
+        "end_ms": 23550,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0021",
+        "text": "dry",
+        "start_ms": 23650,
+        "end_ms": 24200,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0022",
+        "text": "blankets",
+        "start_ms": 24300,
+        "end_ms": 24850,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0023",
+        "text": "and",
+        "start_ms": 24950,
+        "end_ms": 25500,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0024",
+        "text": "warm",
+        "start_ms": 25600,
+        "end_ms": 26150,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0025",
+        "text": "meals",
+        "start_ms": 26250,
+        "end_ms": 26800,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0026",
+        "text": "while",
+        "start_ms": 26900,
+        "end_ms": 27450,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0027",
+        "text": "residents",
+        "start_ms": 27550,
+        "end_ms": 28100,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0028",
+        "text": "waited",
+        "start_ms": 28200,
+        "end_ms": 28750,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0029",
+        "text": "for",
+        "start_ms": 28850,
+        "end_ms": 29400,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0030",
+        "text": "the",
+        "start_ms": 29500,
+        "end_ms": 30050,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0031",
+        "text": "river",
+        "start_ms": 30150,
+        "end_ms": 30700,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0032",
+        "text": "to",
+        "start_ms": 30800,
+        "end_ms": 31350,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0033",
+        "text": "fall.",
+        "start_ms": 31450,
+        "end_ms": 32000,
+        "language": "en",
+        "confidence": 0.61
+      },
+      {
+        "word_id": "w0034",
+        "text": "The",
+        "start_ms": 95000,
+        "end_ms": 95550,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0035",
+        "text": "damaged",
+        "start_ms": 95650,
+        "end_ms": 96200,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0036",
+        "text": "bridge",
+        "start_ms": 96300,
+        "end_ms": 96850,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0037",
+        "text": "reopened",
+        "start_ms": 96950,
+        "end_ms": 97500,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0038",
+        "text": "after",
+        "start_ms": 97600,
+        "end_ms": 98150,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0039",
+        "text": "engineers",
+        "start_ms": 98250,
+        "end_ms": 98800,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0040",
+        "text": "inspected",
+        "start_ms": 98900,
+        "end_ms": 99450,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0041",
+        "text": "the",
+        "start_ms": 99550,
+        "end_ms": 100100,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0042",
+        "text": "stone",
+        "start_ms": 100200,
+        "end_ms": 100750,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0043",
+        "text": "supports.",
+        "start_ms": 100850,
+        "end_ms": 101400,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0044",
+        "text": "Residents",
+        "start_ms": 101500,
+        "end_ms": 102050,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0045",
+        "text": "returned",
+        "start_ms": 102150,
+        "end_ms": 102700,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0046",
+        "text": "to",
+        "start_ms": 102800,
+        "end_ms": 103350,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0047",
+        "text": "repair",
+        "start_ms": 103450,
+        "end_ms": 104000,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0048",
+        "text": "their",
+        "start_ms": 104100,
+        "end_ms": 104650,
+        "language": "en",
+        "confidence": 0.68
+      },
+      {
+        "word_id": "w0049",
+        "text": "homes.",
+        "start_ms": 104750,
+        "end_ms": 105300,
+        "language": "en",
+        "confidence": 0.68
+      }
+    ],
+    "untimed_text": "Unaligned note: a later radio appeal mentioned emergency accommodation.",
+    "source_metadata": [
+      {
+        "field": "event_date",
+        "value": "1952",
+        "source": "synthetic ledger A"
+      },
+      {
+        "field": "event_date",
+        "value": "1953",
+        "source": "synthetic ledger B"
+      }
+    ],
+    "quality_flags": [
+      "poor_audio_simulated",
+      "metadata_conflict"
+    ]
+  },
+  {
+    "schema_version": "1",
+    "event_id": "event-railway",
+    "asset_id": "asset-railway",
+    "recording_version_id": "railway",
+    "transcript_revision_id": "tr-railway-1",
+    "title": "Steam railway interview — synthetic offline",
+    "event_date": null,
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-railway",
+    "duration_ms": 38650,
+    "rights_class": "approved",
+    "availability_state": "offline",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#railway",
+    "coverage": [
+      {
+        "start_ms": 6000,
+        "end_ms": 28650
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "The",
+        "start_ms": 6000,
+        "end_ms": 6550,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0001",
+        "text": "steam",
+        "start_ms": 6650,
+        "end_ms": 7200,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0002",
+        "text": "locomotive",
+        "start_ms": 7300,
+        "end_ms": 7850,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0003",
+        "text": "pulled",
+        "start_ms": 7950,
+        "end_ms": 8500,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0004",
+        "text": "passenger",
+        "start_ms": 8600,
+        "end_ms": 9150,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0005",
+        "text": "carriages",
+        "start_ms": 9250,
+        "end_ms": 9800,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0006",
+        "text": "across",
+        "start_ms": 9900,
+        "end_ms": 10450,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0007",
+        "text": "the",
+        "start_ms": 10550,
+        "end_ms": 11100,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0008",
+        "text": "valley.",
+        "start_ms": 11200,
+        "end_ms": 11750,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0009",
+        "text": "Workers",
+        "start_ms": 11850,
+        "end_ms": 12400,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0010",
+        "text": "shovelled",
+        "start_ms": 12500,
+        "end_ms": 13050,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0011",
+        "text": "coal",
+        "start_ms": 13150,
+        "end_ms": 13700,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0012",
+        "text": "into",
+        "start_ms": 13800,
+        "end_ms": 14350,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0013",
+        "text": "the",
+        "start_ms": 14450,
+        "end_ms": 15000,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0014",
+        "text": "firebox",
+        "start_ms": 15100,
+        "end_ms": 15650,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0015",
+        "text": "and",
+        "start_ms": 15750,
+        "end_ms": 16300,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0016",
+        "text": "watched",
+        "start_ms": 16400,
+        "end_ms": 16950,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0017",
+        "text": "the",
+        "start_ms": 17050,
+        "end_ms": 17600,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0018",
+        "text": "pressure",
+        "start_ms": 17700,
+        "end_ms": 18250,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0019",
+        "text": "gauge.",
+        "start_ms": 18350,
+        "end_ms": 18900,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0020",
+        "text": "The",
+        "start_ms": 19000,
+        "end_ms": 19550,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0021",
+        "text": "station",
+        "start_ms": 19650,
+        "end_ms": 20200,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0022",
+        "text": "master",
+        "start_ms": 20300,
+        "end_ms": 20850,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0023",
+        "text": "announced",
+        "start_ms": 20950,
+        "end_ms": 21500,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0024",
+        "text": "departures",
+        "start_ms": 21600,
+        "end_ms": 22150,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0025",
+        "text": "while",
+        "start_ms": 22250,
+        "end_ms": 22800,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0026",
+        "text": "families",
+        "start_ms": 22900,
+        "end_ms": 23450,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0027",
+        "text": "waited",
+        "start_ms": 23550,
+        "end_ms": 24100,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0028",
+        "text": "on",
+        "start_ms": 24200,
+        "end_ms": 24750,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0029",
+        "text": "the",
+        "start_ms": 24850,
+        "end_ms": 25400,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0030",
+        "text": "platform",
+        "start_ms": 25500,
+        "end_ms": 26050,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0031",
+        "text": "for",
+        "start_ms": 26150,
+        "end_ms": 26700,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0032",
+        "text": "the",
+        "start_ms": 26800,
+        "end_ms": 27350,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0033",
+        "text": "morning",
+        "start_ms": 27450,
+        "end_ms": 28000,
+        "language": "en",
+        "confidence": 0.97
+      },
+      {
+        "word_id": "w0034",
+        "text": "train.",
+        "start_ms": 28100,
+        "end_ms": 28650,
+        "language": "en",
+        "confidence": 0.97
+      }
+    ],
+    "untimed_text": "",
+    "source_metadata": [],
+    "quality_flags": []
+  },
+  {
+    "schema_version": "1",
+    "event_id": "event-restricted",
+    "asset_id": "asset-restricted",
+    "recording_version_id": "restricted",
+    "transcript_revision_id": "tr-restricted-1",
+    "title": "Closed meeting — synthetic restricted",
+    "event_date": null,
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-restricted",
+    "duration_ms": 27200,
+    "rights_class": "restricted",
+    "availability_state": "online",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#restricted",
+    "coverage": [
+      {
+        "start_ms": 3000,
+        "end_ms": 17200
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "Operation",
+        "start_ms": 3000,
+        "end_ms": 3550,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0001",
+        "text": "Marigold",
+        "start_ms": 3650,
+        "end_ms": 4200,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0002",
+        "text": "discussed",
+        "start_ms": 4300,
+        "end_ms": 4850,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0003",
+        "text": "confidential",
+        "start_ms": 4950,
+        "end_ms": 5500,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0004",
+        "text": "shelter",
+        "start_ms": 5600,
+        "end_ms": 6150,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0005",
+        "text": "locations",
+        "start_ms": 6250,
+        "end_ms": 6800,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0006",
+        "text": "and",
+        "start_ms": 6900,
+        "end_ms": 7450,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0007",
+        "text": "private",
+        "start_ms": 7550,
+        "end_ms": 8100,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0008",
+        "text": "evacuation",
+        "start_ms": 8200,
+        "end_ms": 8750,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0009",
+        "text": "routes.",
+        "start_ms": 8850,
+        "end_ms": 9400,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0010",
+        "text": "The",
+        "start_ms": 9500,
+        "end_ms": 10050,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0011",
+        "text": "committee",
+        "start_ms": 10150,
+        "end_ms": 10700,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0012",
+        "text": "kept",
+        "start_ms": 10800,
+        "end_ms": 11350,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0013",
+        "text": "the",
+        "start_ms": 11450,
+        "end_ms": 12000,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0014",
+        "text": "register",
+        "start_ms": 12100,
+        "end_ms": 12650,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0015",
+        "text": "sealed",
+        "start_ms": 12750,
+        "end_ms": 13300,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0016",
+        "text": "and",
+        "start_ms": 13400,
+        "end_ms": 13950,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0017",
+        "text": "limited",
+        "start_ms": 14050,
+        "end_ms": 14600,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0018",
+        "text": "access",
+        "start_ms": 14700,
+        "end_ms": 15250,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0019",
+        "text": "to",
+        "start_ms": 15350,
+        "end_ms": 15900,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0020",
+        "text": "approved",
+        "start_ms": 16000,
+        "end_ms": 16550,
+        "language": "en",
+        "confidence": 0.98
+      },
+      {
+        "word_id": "w0021",
+        "text": "staff.",
+        "start_ms": 16650,
+        "end_ms": 17200,
+        "language": "en",
+        "confidence": 0.98
+      }
+    ],
+    "untimed_text": "",
+    "source_metadata": [],
+    "quality_flags": []
+  },
+  {
+    "schema_version": "1",
+    "event_id": "event-unknown-rights",
+    "asset_id": "asset-unknown-rights",
+    "recording_version_id": "unknown-rights",
+    "transcript_revision_id": "tr-unknown-rights-1",
+    "title": "Unresolved rights — synthetic",
+    "event_date": null,
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-unknown-rights",
+    "duration_ms": 24600,
+    "rights_class": "unknown",
+    "availability_state": "online",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#unknown-rights",
+    "coverage": [
+      {
+        "start_ms": 3000,
+        "end_ms": 14600
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "Project",
+        "start_ms": 3000,
+        "end_ms": 3550,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0001",
+        "text": "Azurestone",
+        "start_ms": 3650,
+        "end_ms": 4200,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0002",
+        "text": "describes",
+        "start_ms": 4300,
+        "end_ms": 4850,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0003",
+        "text": "an",
+        "start_ms": 4950,
+        "end_ms": 5500,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0004",
+        "text": "unpublished",
+        "start_ms": 5600,
+        "end_ms": 6150,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0005",
+        "text": "botanical",
+        "start_ms": 6250,
+        "end_ms": 6800,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0006",
+        "text": "expedition",
+        "start_ms": 6900,
+        "end_ms": 7450,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0007",
+        "text": "into",
+        "start_ms": 7550,
+        "end_ms": 8100,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0008",
+        "text": "the",
+        "start_ms": 8200,
+        "end_ms": 8750,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0009",
+        "text": "northern",
+        "start_ms": 8850,
+        "end_ms": 9400,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0010",
+        "text": "forest.",
+        "start_ms": 9500,
+        "end_ms": 10050,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0011",
+        "text": "The",
+        "start_ms": 10150,
+        "end_ms": 10700,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0012",
+        "text": "collection",
+        "start_ms": 10800,
+        "end_ms": 11350,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0013",
+        "text": "has",
+        "start_ms": 11450,
+        "end_ms": 12000,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0014",
+        "text": "no",
+        "start_ms": 12100,
+        "end_ms": 12650,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0015",
+        "text": "confirmed",
+        "start_ms": 12750,
+        "end_ms": 13300,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0016",
+        "text": "rights",
+        "start_ms": 13400,
+        "end_ms": 13950,
+        "language": "en",
+        "confidence": 0.99
+      },
+      {
+        "word_id": "w0017",
+        "text": "clearance.",
+        "start_ms": 14050,
+        "end_ms": 14600,
+        "language": "en",
+        "confidence": 0.99
+      }
+    ],
+    "untimed_text": "",
+    "source_metadata": [],
+    "quality_flags": []
+  },
+  {
+    "schema_version": "1",
+    "event_id": "event-french",
+    "asset_id": "asset-french",
+    "recording_version_id": "french",
+    "transcript_revision_id": "tr-french-1",
+    "title": "Community library opening — synthetic mixed language",
+    "event_date": null,
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-french",
+    "duration_ms": 42700,
+    "rights_class": "approved",
+    "availability_state": "online",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#french",
+    "coverage": [
+      {
+        "start_ms": 2000,
+        "end_ms": 15550
+      },
+      {
+        "start_ms": 25000,
+        "end_ms": 32700
+      }
+    ],
+    "words": [
+      {
+        "word_id": "w0000",
+        "text": "La",
+        "start_ms": 2000,
+        "end_ms": 2550,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0001",
+        "text": "bibliothèque",
+        "start_ms": 2650,
+        "end_ms": 3200,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0002",
+        "text": "municipale",
+        "start_ms": 3300,
+        "end_ms": 3850,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0003",
+        "text": "ouvre",
+        "start_ms": 3950,
+        "end_ms": 4500,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0004",
+        "text": "ses",
+        "start_ms": 4600,
+        "end_ms": 5150,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0005",
+        "text": "portes",
+        "start_ms": 5250,
+        "end_ms": 5800,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0006",
+        "text": "aux",
+        "start_ms": 5900,
+        "end_ms": 6450,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0007",
+        "text": "enfants.",
+        "start_ms": 6550,
+        "end_ms": 7100,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0008",
+        "text": "Les",
+        "start_ms": 7200,
+        "end_ms": 7750,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0009",
+        "text": "lecteurs",
+        "start_ms": 7850,
+        "end_ms": 8400,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0010",
+        "text": "peuvent",
+        "start_ms": 8500,
+        "end_ms": 9050,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0011",
+        "text": "emprunter",
+        "start_ms": 9150,
+        "end_ms": 9700,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0012",
+        "text": "des",
+        "start_ms": 9800,
+        "end_ms": 10350,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0013",
+        "text": "livres",
+        "start_ms": 10450,
+        "end_ms": 11000,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0014",
+        "text": "et",
+        "start_ms": 11100,
+        "end_ms": 11650,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0015",
+        "text": "découvrir",
+        "start_ms": 11750,
+        "end_ms": 12300,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0016",
+        "text": "les",
+        "start_ms": 12400,
+        "end_ms": 12950,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0017",
+        "text": "histoires",
+        "start_ms": 13050,
+        "end_ms": 13600,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0018",
+        "text": "de",
+        "start_ms": 13700,
+        "end_ms": 14250,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0019",
+        "text": "leur",
+        "start_ms": 14350,
+        "end_ms": 14900,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0020",
+        "text": "quartier.",
+        "start_ms": 15000,
+        "end_ms": 15550,
+        "language": "fr",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0021",
+        "text": "The",
+        "start_ms": 25000,
+        "end_ms": 25550,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0022",
+        "text": "town",
+        "start_ms": 25650,
+        "end_ms": 26200,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0023",
+        "text": "library",
+        "start_ms": 26300,
+        "end_ms": 26850,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0024",
+        "text": "welcomes",
+        "start_ms": 26950,
+        "end_ms": 27500,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0025",
+        "text": "children",
+        "start_ms": 27600,
+        "end_ms": 28150,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0026",
+        "text": "and",
+        "start_ms": 28250,
+        "end_ms": 28800,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0027",
+        "text": "offers",
+        "start_ms": 28900,
+        "end_ms": 29450,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0028",
+        "text": "books",
+        "start_ms": 29550,
+        "end_ms": 30100,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0029",
+        "text": "about",
+        "start_ms": 30200,
+        "end_ms": 30750,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0030",
+        "text": "the",
+        "start_ms": 30850,
+        "end_ms": 31400,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0031",
+        "text": "local",
+        "start_ms": 31500,
+        "end_ms": 32050,
+        "language": "en",
+        "confidence": 0.95
+      },
+      {
+        "word_id": "w0032",
+        "text": "community.",
+        "start_ms": 32150,
+        "end_ms": 32700,
+        "language": "en",
+        "confidence": 0.95
+      }
+    ],
+    "untimed_text": "",
+    "source_metadata": [],
+    "quality_flags": []
+  },
+  {
+    "schema_version": "1",
+    "event_id": "event-untimed",
+    "asset_id": "asset-untimed",
+    "recording_version_id": "untimed",
+    "transcript_revision_id": "tr-untimed-1",
+    "title": "Unaligned catalogue transcript — synthetic",
+    "event_date": null,
+    "recording_date": null,
+    "custody_reference": "DEMO-SHELF-untimed",
+    "duration_ms": 20000,
+    "rights_class": "approved",
+    "availability_state": "online",
+    "source_kind": "synthetic_fixture",
+    "source_reference": "data/PROVENANCE.md#untimed",
+    "coverage": [],
+    "words": [],
+    "untimed_text": "A brass band performed beside the harbour on a summer afternoon.",
+    "source_metadata": [],
+    "quality_flags": []
+  }
+]

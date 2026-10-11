@@ -1,0 +1,2 @@
+[console_scripts]
+ftm = find_the_moment.cli:main

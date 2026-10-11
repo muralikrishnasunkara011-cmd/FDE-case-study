@@ -1,0 +1,160 @@
+[
+  {
+    "id": "exact",
+    "query": "we shall never surrender",
+    "relevant": [
+      {
+        "version": "churchill-full",
+        "start_ms": 138850,
+        "end_ms": 141350
+      },
+      {
+        "version": "churchill-edit",
+        "start_ms": 36850,
+        "end_ms": 39350
+      }
+    ],
+    "exact_boundaries": true
+  },
+  {
+    "id": "vague",
+    "query": "I'm looking for that Churchill speech where he talks about fighting everywhere… I think it's during the war, maybe after a retreat? He says something like they'll never surrender.",
+    "relevant": [
+      {
+        "version": "churchill-full",
+        "start_ms": 120000,
+        "end_ms": 141350
+      },
+      {
+        "version": "churchill-edit",
+        "start_ms": 18000,
+        "end_ms": 39350
+      }
+    ]
+  },
+  {
+    "id": "semantic",
+    "query": "Refusing to capitulate despite an invasion across every part of our homeland",
+    "relevant": [
+      {
+        "version": "churchill-full",
+        "start_ms": 120000,
+        "end_ms": 141350
+      },
+      {
+        "version": "churchill-edit",
+        "start_ms": 18000,
+        "end_ms": 39350
+      }
+    ]
+  },
+  {
+    "id": "misremembered",
+    "query": "That wartime promise to resist on the coast and in towns, perhaps after a defeat",
+    "relevant": [
+      {
+        "version": "churchill-full",
+        "start_ms": 120000,
+        "end_ms": 141350
+      },
+      {
+        "version": "churchill-edit",
+        "start_ms": 18000,
+        "end_ms": 39350
+      }
+    ]
+  },
+  {
+    "id": "edited",
+    "query": "we shall never surrender",
+    "version": "churchill-edit",
+    "relevant": [
+      {
+        "version": "churchill-edit",
+        "start_ms": 36850,
+        "end_ms": 39350
+      }
+    ],
+    "exact_boundaries": true
+  },
+  {
+    "id": "orchard",
+    "query": "Growing fruit for the village",
+    "relevant": [
+      {
+        "version": "orchard",
+        "start_ms": 4000,
+        "end_ms": 27950
+      }
+    ]
+  },
+  {
+    "id": "flood",
+    "query": "Residents rescued by boat when their homes filled with water",
+    "relevant": [
+      {
+        "version": "flood",
+        "start_ms": 10000,
+        "end_ms": 32000
+      }
+    ]
+  },
+  {
+    "id": "offline",
+    "query": "steam locomotive",
+    "relevant": [
+      {
+        "version": "railway",
+        "start_ms": 6650,
+        "end_ms": 7850
+      }
+    ],
+    "exact_boundaries": true
+  },
+  {
+    "id": "restricted-allowed",
+    "query": "Operation Marigold",
+    "principal": "archivist",
+    "relevant": [
+      {
+        "version": "restricted",
+        "start_ms": 3000,
+        "end_ms": 4200
+      }
+    ],
+    "exact_boundaries": true
+  },
+  {
+    "id": "french-lexical",
+    "query": "bibliothèque municipale",
+    "relevant": [
+      {
+        "version": "french",
+        "start_ms": 2650,
+        "end_ms": 3850
+      }
+    ],
+    "exact_boundaries": true
+  },
+  {
+    "id": "negative",
+    "query": "quantum superconducting qubits",
+    "relevant": []
+  },
+  {
+    "id": "restricted-denied",
+    "query": "Marigold",
+    "relevant": []
+  },
+  {
+    "id": "unknown-rights",
+    "query": "Azurestone",
+    "principal": "archivist",
+    "relevant": []
+  },
+  {
+    "id": "untimed-only",
+    "query": "brass band harbour",
+    "relevant": []
+  }
+]

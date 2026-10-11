@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=75,<82"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find-the-moment"
+version = "0.1.0"
+description = "Source-grounded archival passage retrieval, local assessment PoC"
+requires-python = ">=3.12,<3.14"
+dependencies = ["sentence-transformers==3.4.1", "numpy>=1.26,<3", "pydantic==2.10.6", "fastapi==0.115.11", "uvicorn==0.34.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.5", "httpx==0.28.1", "ruff==0.11.0", "mypy==1.15.0"]
+
+[project.scripts]
+ftm = "find_the_moment.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: uses the real pinned embedding model"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ["numpy.*", "sentence_transformers.*"]
+follow_imports = "skip"
