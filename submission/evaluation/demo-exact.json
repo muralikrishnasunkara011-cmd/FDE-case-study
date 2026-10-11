@@ -1,0 +1,63 @@
+{
+  "query": "we shall never surrender",
+  "status": "matches",
+  "results": [
+    {
+      "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+      "event_id": "churchill-1940-06-04",
+      "event_date": "1940-06-04",
+      "asset_id": "asset-churchill",
+      "recording_version_id": "churchill-edit",
+      "transcript_revision_id": "tr-churchill-edit-1",
+      "segment_id": "seg-baa9234cad219982e1e4f055",
+      "matched_excerpt": "we shall never surrender.",
+      "start_ms": 36850,
+      "end_ms": 39350,
+      "start_word_id": "w0029",
+      "end_word_id": "w0032",
+      "language": "en",
+      "evidence_status": "synthetic_fixture",
+      "resolution": "exact_phrase",
+      "quality_flags": [
+        "partial_timed_coverage"
+      ],
+      "coverage_fraction": 0.4326,
+      "availability_state": "offline",
+      "permitted_actions": [
+        "read_transcript",
+        "simulate_retrieval_request"
+      ],
+      "source_reference": "data/PROVENANCE.md#churchill-edit",
+      "score": 0.03278689
+    },
+    {
+      "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+      "event_id": "churchill-1940-06-04",
+      "event_date": "1940-06-04",
+      "asset_id": "asset-churchill",
+      "recording_version_id": "churchill-full",
+      "transcript_revision_id": "tr-churchill-full-1",
+      "segment_id": "seg-f0d091df7eee754d2d081773",
+      "matched_excerpt": "we shall never surrender.",
+      "start_ms": 138850,
+      "end_ms": 141350,
+      "start_word_id": "w0052",
+      "end_word_id": "w0055",
+      "language": "en",
+      "evidence_status": "synthetic_fixture",
+      "resolution": "exact_phrase",
+      "quality_flags": [
+        "partial_timed_coverage"
+      ],
+      "coverage_fraction": 0.2468,
+      "availability_state": "online",
+      "permitted_actions": [
+        "read_transcript",
+        "media_not_in_demo"
+      ],
+      "source_reference": "data/PROVENANCE.md#churchill-full",
+      "score": 0.03225806
+    }
+  ],
+  "notice": "Search covers indexed timed evidence only. Scores are ranking signals, not probabilities. Demo identities are not production authentication."
+}

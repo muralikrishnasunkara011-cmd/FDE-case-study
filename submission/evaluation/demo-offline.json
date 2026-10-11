@@ -1,0 +1,35 @@
+{
+  "query": "steam locomotive",
+  "status": "matches",
+  "results": [
+    {
+      "title": "Steam railway interview — synthetic offline",
+      "event_id": "event-railway",
+      "event_date": null,
+      "asset_id": "asset-railway",
+      "recording_version_id": "railway",
+      "transcript_revision_id": "tr-railway-1",
+      "segment_id": "seg-2e7bd4378db4047185e39ca4",
+      "matched_excerpt": "steam locomotive",
+      "start_ms": 6650,
+      "end_ms": 7850,
+      "start_word_id": "w0001",
+      "end_word_id": "w0002",
+      "language": "en",
+      "evidence_status": "synthetic_fixture",
+      "resolution": "exact_phrase",
+      "quality_flags": [
+        "partial_timed_coverage"
+      ],
+      "coverage_fraction": 0.586,
+      "availability_state": "offline",
+      "permitted_actions": [
+        "read_transcript",
+        "simulate_retrieval_request"
+      ],
+      "source_reference": "data/PROVENANCE.md#railway",
+      "score": 0.03278689
+    }
+  ],
+  "notice": "Search covers indexed timed evidence only. Scores are ranking signals, not probabilities. Demo identities are not production authentication."
+}

@@ -1,0 +1,122 @@
+{
+  "query": "I'm looking for that Churchill speech where he talks about fighting everywhere… I think it's during the war, maybe after a retreat? He says something like they'll never surrender.",
+  "status": "matches",
+  "results": [
+    {
+      "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+      "event_id": "churchill-1940-06-04",
+      "event_date": "1940-06-04",
+      "asset_id": "asset-churchill",
+      "recording_version_id": "churchill-edit",
+      "transcript_revision_id": "tr-churchill-edit-1",
+      "segment_id": "seg-baa9234cad219982e1e4f055",
+      "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+      "start_ms": 18000,
+      "end_ms": 39350,
+      "start_word_id": "w0000",
+      "end_word_id": "w0032",
+      "language": "en",
+      "evidence_status": "synthetic_fixture",
+      "resolution": "source_window",
+      "quality_flags": [
+        "partial_timed_coverage"
+      ],
+      "coverage_fraction": 0.4326,
+      "availability_state": "offline",
+      "permitted_actions": [
+        "read_transcript",
+        "simulate_retrieval_request"
+      ],
+      "source_reference": "data/PROVENANCE.md#churchill-edit",
+      "score": 0.03252247
+    },
+    {
+      "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+      "event_id": "churchill-1940-06-04",
+      "event_date": "1940-06-04",
+      "asset_id": "asset-churchill",
+      "recording_version_id": "churchill-full",
+      "transcript_revision_id": "tr-churchill-full-1",
+      "segment_id": "seg-6a78031f99c246c405c0d4dd",
+      "matched_excerpt": "The catalogue introduction describes a wartime address after an evacuation. This introduction is original synthetic fixture prose and is not a historical quotation.",
+      "start_ms": 5000,
+      "end_ms": 19850,
+      "start_word_id": "w0000",
+      "end_word_id": "w0022",
+      "language": "en",
+      "evidence_status": "synthetic_fixture",
+      "resolution": "source_window",
+      "quality_flags": [
+        "partial_timed_coverage"
+      ],
+      "coverage_fraction": 0.2468,
+      "availability_state": "online",
+      "permitted_actions": [
+        "read_transcript",
+        "media_not_in_demo"
+      ],
+      "source_reference": "data/PROVENANCE.md#churchill-full",
+      "score": 0.03201844
+    },
+    {
+      "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+      "event_id": "churchill-1940-06-04",
+      "event_date": "1940-06-04",
+      "asset_id": "asset-churchill",
+      "recording_version_id": "churchill-full",
+      "transcript_revision_id": "tr-churchill-full-1",
+      "segment_id": "seg-f0d091df7eee754d2d081773",
+      "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+      "start_ms": 120000,
+      "end_ms": 141350,
+      "start_word_id": "w0023",
+      "end_word_id": "w0055",
+      "language": "en",
+      "evidence_status": "synthetic_fixture",
+      "resolution": "source_window",
+      "quality_flags": [
+        "partial_timed_coverage"
+      ],
+      "coverage_fraction": 0.2468,
+      "availability_state": "online",
+      "permitted_actions": [
+        "read_transcript",
+        "media_not_in_demo"
+      ],
+      "source_reference": "data/PROVENANCE.md#churchill-full",
+      "score": 0.03200205
+    },
+    {
+      "title": "Flood evacuation account — synthetic partial transcript",
+      "event_id": "event-flood",
+      "event_date": null,
+      "asset_id": "asset-flood",
+      "recording_version_id": "flood",
+      "transcript_revision_id": "tr-flood-1",
+      "segment_id": "seg-9bb55815620e8058be82c60d",
+      "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+      "start_ms": 95000,
+      "end_ms": 105300,
+      "start_word_id": "w0034",
+      "end_word_id": "w0049",
+      "language": "en",
+      "evidence_status": "synthetic_fixture",
+      "resolution": "source_window",
+      "quality_flags": [
+        "low_transcript_confidence_review",
+        "metadata_conflict",
+        "partial_timed_coverage",
+        "poor_audio_simulated"
+      ],
+      "coverage_fraction": 0.2801,
+      "availability_state": "online",
+      "permitted_actions": [
+        "read_transcript",
+        "media_not_in_demo"
+      ],
+      "source_reference": "data/PROVENANCE.md#flood",
+      "score": 0.01587302
+    }
+  ],
+  "notice": "Search covers indexed timed evidence only. Scores are ranking signals, not probabilities. Demo identities are not production authentication."
+}

@@ -1,0 +1,2287 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "platform": "macOS-26.7-arm64-arm-64bit",
+  "python": "3.12.2",
+  "load_and_warmup_ms": 188.71195800602436,
+  "dataset": "synthetic development fixtures; no held-out claims",
+  "concurrency": 1,
+  "runs": [
+    {
+      "metrics": {
+        "mode": "lexical",
+        "positive_queries": 10,
+        "negative_queries": 4,
+        "recording_recall_at_5": 0.9,
+        "segment_recall_at_5": 0.8,
+        "mrr_at_5": 0.75,
+        "negative_accuracy": 1,
+        "boundary_intervals_measured": 6,
+        "start_mae_ms": 0,
+        "end_mae_ms": 0,
+        "boundary_fraction_within_2s": 1,
+        "warm_sequential_p95_ms": 0.7479999912902713
+      },
+      "queries": [
+        {
+          "id": "exact",
+          "query": "we shall never surrender",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 0.7479999912902713,
+          "boundary_errors": [
+            {
+              "version": "churchill-edit",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            },
+            {
+              "version": "churchill-full",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 36850,
+              "end_ms": 39350,
+              "start_word_id": "w0029",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 138850,
+              "end_ms": 141350,
+              "start_word_id": "w0052",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "vague",
+          "query": "I'm looking for that Churchill speech where he talks about fighting everywhere… I think it's during the war, maybe after a retreat? He says something like they'll never surrender.",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 0.3832909860648215,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 18000,
+              "end_ms": 39350,
+              "start_word_id": "w0000",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 120000,
+              "end_ms": 141350,
+              "start_word_id": "w0023",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01612903
+            },
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9bb55815620e8058be82c60d",
+              "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+              "start_ms": 95000,
+              "end_ms": 105300,
+              "start_word_id": "w0034",
+              "end_word_id": "w0049",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01587302
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-6a78031f99c246c405c0d4dd",
+              "matched_excerpt": "The catalogue introduction describes a wartime address after an evacuation. This introduction is original synthetic fixture prose and is not a historical quotation.",
+              "start_ms": 5000,
+              "end_ms": 19850,
+              "start_word_id": "w0000",
+              "end_word_id": "w0022",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.015625
+            }
+          ]
+        },
+        {
+          "id": "semantic",
+          "query": "Refusing to capitulate despite an invasion across every part of our homeland",
+          "positive": true,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": null,
+          "latency_ms": 0.17833401216194034,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Steam railway interview — synthetic offline",
+              "event_id": "event-railway",
+              "event_date": null,
+              "asset_id": "asset-railway",
+              "recording_version_id": "railway",
+              "transcript_revision_id": "tr-railway-1",
+              "segment_id": "seg-2e7bd4378db4047185e39ca4",
+              "matched_excerpt": "The steam locomotive pulled passenger carriages across the valley. Workers shovelled coal into the firebox and watched the pressure gauge. The station master announced departures while families waited on the platform for the morning train.",
+              "start_ms": 6000,
+              "end_ms": 28650,
+              "start_word_id": "w0000",
+              "end_word_id": "w0034",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.586,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#railway",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "misremembered",
+          "query": "That wartime promise to resist on the coast and in towns, perhaps after a defeat",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": null,
+          "latency_ms": 0.3314589848741889,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-6a78031f99c246c405c0d4dd",
+              "matched_excerpt": "The catalogue introduction describes a wartime address after an evacuation. This introduction is original synthetic fixture prose and is not a historical quotation.",
+              "start_ms": 5000,
+              "end_ms": 19850,
+              "start_word_id": "w0000",
+              "end_word_id": "w0022",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01639344
+            },
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9bb55815620e8058be82c60d",
+              "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+              "start_ms": 95000,
+              "end_ms": 105300,
+              "start_word_id": "w0034",
+              "end_word_id": "w0049",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "edited",
+          "query": "we shall never surrender",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 0.08720799814909697,
+          "boundary_errors": [
+            {
+              "version": "churchill-edit",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 36850,
+              "end_ms": 39350,
+              "start_word_id": "w0029",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "orchard",
+          "query": "Growing fruit for the village",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 0.16729097114875913,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Orchard oral history — synthetic",
+              "event_id": "event-orchard",
+              "event_date": null,
+              "asset_id": "asset-orchard",
+              "recording_version_id": "orchard",
+              "transcript_revision_id": "tr-orchard-1",
+              "segment_id": "seg-c9fca360a39e8144afbe7762",
+              "matched_excerpt": "The gardeners planted apple trees beside the river. Each spring they checked the soil and pruned damaged branches. Rainfall helped the roots grow through summer. The harvest supplied fresh fruit to the village market and local schools.",
+              "start_ms": 4000,
+              "end_ms": 27950,
+              "start_word_id": "w0000",
+              "end_word_id": "w0036",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.6311,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#orchard",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "flood",
+          "query": "Residents rescued by boat when their homes filled with water",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 0.5,
+          "negative_correct": null,
+          "latency_ms": 0.18870801432058215,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9bb55815620e8058be82c60d",
+              "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+              "start_ms": 95000,
+              "end_ms": 105300,
+              "start_word_id": "w0034",
+              "end_word_id": "w0049",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01639344
+            },
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9b580abed4f5c9ee2ee33082",
+              "matched_excerpt": "Rising water entered the houses during the night. Volunteers carried families to higher ground in small boats. The community centre provided dry blankets and warm meals while residents waited for the river to fall.",
+              "start_ms": 10000,
+              "end_ms": 32000,
+              "start_word_id": "w0000",
+              "end_word_id": "w0033",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "offline",
+          "query": "steam locomotive",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 0.3079160233028233,
+          "boundary_errors": [
+            {
+              "version": "railway",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "Steam railway interview — synthetic offline",
+              "event_id": "event-railway",
+              "event_date": null,
+              "asset_id": "asset-railway",
+              "recording_version_id": "railway",
+              "transcript_revision_id": "tr-railway-1",
+              "segment_id": "seg-2e7bd4378db4047185e39ca4",
+              "matched_excerpt": "steam locomotive",
+              "start_ms": 6650,
+              "end_ms": 7850,
+              "start_word_id": "w0001",
+              "end_word_id": "w0002",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.586,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#railway",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "restricted-allowed",
+          "query": "Operation Marigold",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 0.17150002531707287,
+          "boundary_errors": [
+            {
+              "version": "restricted",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "Closed meeting — synthetic restricted",
+              "event_id": "event-restricted",
+              "event_date": null,
+              "asset_id": "asset-restricted",
+              "recording_version_id": "restricted",
+              "transcript_revision_id": "tr-restricted-1",
+              "segment_id": "seg-b98f4b35b4feabb6e2d12e6e",
+              "matched_excerpt": "Operation Marigold",
+              "start_ms": 3000,
+              "end_ms": 4200,
+              "start_word_id": "w0000",
+              "end_word_id": "w0001",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.5221,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#restricted",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "french-lexical",
+          "query": "bibliothèque municipale",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 0.12912496458739042,
+          "boundary_errors": [
+            {
+              "version": "french",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "Community library opening — synthetic mixed language",
+              "event_id": "event-french",
+              "event_date": null,
+              "asset_id": "asset-french",
+              "recording_version_id": "french",
+              "transcript_revision_id": "tr-french-1",
+              "segment_id": "seg-04aefcdd0400a099df13822d",
+              "matched_excerpt": "bibliothèque municipale",
+              "start_ms": 2650,
+              "end_ms": 3850,
+              "start_word_id": "w0001",
+              "end_word_id": "w0002",
+              "language": "fr",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage",
+                "semantic_language_not_validated"
+              ],
+              "coverage_fraction": 0.4977,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#french",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "negative",
+          "query": "quantum superconducting qubits",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 0.09454198880121112,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "restricted-denied",
+          "query": "Marigold",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 0.08512497879564762,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "unknown-rights",
+          "query": "Azurestone",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 0.09104103082790971,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "untimed-only",
+          "query": "brass band harbour",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 0.0880410079844296,
+          "boundary_errors": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "metrics": {
+        "mode": "semantic",
+        "positive_queries": 10,
+        "negative_queries": 4,
+        "recording_recall_at_5": 1,
+        "segment_recall_at_5": 1,
+        "mrr_at_5": 0.95,
+        "negative_accuracy": 1,
+        "boundary_intervals_measured": 7,
+        "start_mae_ms": 3192.8571428571427,
+        "end_mae_ms": 4121.428571428572,
+        "boundary_fraction_within_2s": 0.8571428571428571,
+        "warm_sequential_p95_ms": 13.819582993164659
+      },
+      "queries": [
+        {
+          "id": "exact",
+          "query": "we shall never surrender",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 12.511749984696507,
+          "boundary_errors": [
+            {
+              "version": "churchill-edit",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            },
+            {
+              "version": "churchill-full",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 36850,
+              "end_ms": 39350,
+              "start_word_id": "w0029",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 138850,
+              "end_ms": 141350,
+              "start_word_id": "w0052",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "vague",
+          "query": "I'm looking for that Churchill speech where he talks about fighting everywhere… I think it's during the war, maybe after a retreat? He says something like they'll never surrender.",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 0.5,
+          "negative_correct": null,
+          "latency_ms": 12.129457958508283,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-6a78031f99c246c405c0d4dd",
+              "matched_excerpt": "The catalogue introduction describes a wartime address after an evacuation. This introduction is original synthetic fixture prose and is not a historical quotation.",
+              "start_ms": 5000,
+              "end_ms": 19850,
+              "start_word_id": "w0000",
+              "end_word_id": "w0022",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 18000,
+              "end_ms": 39350,
+              "start_word_id": "w0000",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01612903
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 120000,
+              "end_ms": 141350,
+              "start_word_id": "w0023",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01587302
+            }
+          ]
+        },
+        {
+          "id": "semantic",
+          "query": "Refusing to capitulate despite an invasion across every part of our homeland",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.633541969582438,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 18000,
+              "end_ms": 39350,
+              "start_word_id": "w0000",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 120000,
+              "end_ms": 141350,
+              "start_word_id": "w0023",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "misremembered",
+          "query": "That wartime promise to resist on the coast and in towns, perhaps after a defeat",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 13.819582993164659,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 18000,
+              "end_ms": 39350,
+              "start_word_id": "w0000",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 120000,
+              "end_ms": 141350,
+              "start_word_id": "w0023",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01612903
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-6a78031f99c246c405c0d4dd",
+              "matched_excerpt": "The catalogue introduction describes a wartime address after an evacuation. This introduction is original synthetic fixture prose and is not a historical quotation.",
+              "start_ms": 5000,
+              "end_ms": 19850,
+              "start_word_id": "w0000",
+              "end_word_id": "w0022",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01587302
+            }
+          ]
+        },
+        {
+          "id": "edited",
+          "query": "we shall never surrender",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.311125020962209,
+          "boundary_errors": [
+            {
+              "version": "churchill-edit",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 36850,
+              "end_ms": 39350,
+              "start_word_id": "w0029",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "orchard",
+          "query": "Growing fruit for the village",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 9.83679195633158,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Orchard oral history — synthetic",
+              "event_id": "event-orchard",
+              "event_date": null,
+              "asset_id": "asset-orchard",
+              "recording_version_id": "orchard",
+              "transcript_revision_id": "tr-orchard-1",
+              "segment_id": "seg-c9fca360a39e8144afbe7762",
+              "matched_excerpt": "The gardeners planted apple trees beside the river. Each spring they checked the soil and pruned damaged branches. Rainfall helped the roots grow through summer. The harvest supplied fresh fruit to the village market and local schools.",
+              "start_ms": 4000,
+              "end_ms": 27950,
+              "start_word_id": "w0000",
+              "end_word_id": "w0036",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.6311,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#orchard",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "flood",
+          "query": "Residents rescued by boat when their homes filled with water",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 11.542416003067046,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9b580abed4f5c9ee2ee33082",
+              "matched_excerpt": "Rising water entered the houses during the night. Volunteers carried families to higher ground in small boats. The community centre provided dry blankets and warm meals while residents waited for the river to fall.",
+              "start_ms": 10000,
+              "end_ms": 32000,
+              "start_word_id": "w0000",
+              "end_word_id": "w0033",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01639344
+            },
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9bb55815620e8058be82c60d",
+              "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+              "start_ms": 95000,
+              "end_ms": 105300,
+              "start_word_id": "w0034",
+              "end_word_id": "w0049",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "offline",
+          "query": "steam locomotive",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.406999965198338,
+          "boundary_errors": [
+            {
+              "version": "railway",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "Steam railway interview — synthetic offline",
+              "event_id": "event-railway",
+              "event_date": null,
+              "asset_id": "asset-railway",
+              "recording_version_id": "railway",
+              "transcript_revision_id": "tr-railway-1",
+              "segment_id": "seg-2e7bd4378db4047185e39ca4",
+              "matched_excerpt": "steam locomotive",
+              "start_ms": 6650,
+              "end_ms": 7850,
+              "start_word_id": "w0001",
+              "end_word_id": "w0002",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.586,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#railway",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "restricted-allowed",
+          "query": "Operation Marigold",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 9.373750013764948,
+          "boundary_errors": [
+            {
+              "version": "restricted",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "Closed meeting — synthetic restricted",
+              "event_id": "event-restricted",
+              "event_date": null,
+              "asset_id": "asset-restricted",
+              "recording_version_id": "restricted",
+              "transcript_revision_id": "tr-restricted-1",
+              "segment_id": "seg-b98f4b35b4feabb6e2d12e6e",
+              "matched_excerpt": "Operation Marigold",
+              "start_ms": 3000,
+              "end_ms": 4200,
+              "start_word_id": "w0000",
+              "end_word_id": "w0001",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.5221,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#restricted",
+              "score": 0.01639344
+            }
+          ]
+        },
+        {
+          "id": "french-lexical",
+          "query": "bibliothèque municipale",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.380916006397456,
+          "boundary_errors": [
+            {
+              "version": "french",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            },
+            {
+              "version": "french",
+              "start_error_ms": 22350,
+              "end_error_ms": 28850
+            }
+          ],
+          "results": [
+            {
+              "title": "Community library opening — synthetic mixed language",
+              "event_id": "event-french",
+              "event_date": null,
+              "asset_id": "asset-french",
+              "recording_version_id": "french",
+              "transcript_revision_id": "tr-french-1",
+              "segment_id": "seg-04aefcdd0400a099df13822d",
+              "matched_excerpt": "bibliothèque municipale",
+              "start_ms": 2650,
+              "end_ms": 3850,
+              "start_word_id": "w0001",
+              "end_word_id": "w0002",
+              "language": "fr",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage",
+                "semantic_language_not_validated"
+              ],
+              "coverage_fraction": 0.4977,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#french",
+              "score": 0.01639344
+            },
+            {
+              "title": "Community library opening — synthetic mixed language",
+              "event_id": "event-french",
+              "event_date": null,
+              "asset_id": "asset-french",
+              "recording_version_id": "french",
+              "transcript_revision_id": "tr-french-1",
+              "segment_id": "seg-2541eb8ab125a2a45e3148c8",
+              "matched_excerpt": "The town library welcomes children and offers books about the local community.",
+              "start_ms": 25000,
+              "end_ms": 32700,
+              "start_word_id": "w0021",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4977,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#french",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "negative",
+          "query": "quantum superconducting qubits",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 10.609792021568865,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "restricted-denied",
+          "query": "Marigold",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 11.817165999673307,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "unknown-rights",
+          "query": "Azurestone",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 10.061625041998923,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "untimed-only",
+          "query": "brass band harbour",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 10.224582976661623,
+          "boundary_errors": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "metrics": {
+        "mode": "hybrid",
+        "positive_queries": 10,
+        "negative_queries": 4,
+        "recording_recall_at_5": 1,
+        "segment_recall_at_5": 1,
+        "mrr_at_5": 0.9,
+        "negative_accuracy": 1,
+        "boundary_intervals_measured": 7,
+        "start_mae_ms": 3192.8571428571427,
+        "end_mae_ms": 4121.428571428572,
+        "boundary_fraction_within_2s": 0.8571428571428571,
+        "warm_sequential_p95_ms": 13.050584006123245
+      },
+      "queries": [
+        {
+          "id": "exact",
+          "query": "we shall never surrender",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 9.90433304104954,
+          "boundary_errors": [
+            {
+              "version": "churchill-edit",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            },
+            {
+              "version": "churchill-full",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 36850,
+              "end_ms": 39350,
+              "start_word_id": "w0029",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.03278689
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 138850,
+              "end_ms": 141350,
+              "start_word_id": "w0052",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.03225806
+            }
+          ]
+        },
+        {
+          "id": "vague",
+          "query": "I'm looking for that Churchill speech where he talks about fighting everywhere… I think it's during the war, maybe after a retreat? He says something like they'll never surrender.",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 13.050584006123245,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 18000,
+              "end_ms": 39350,
+              "start_word_id": "w0000",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.03252247
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-6a78031f99c246c405c0d4dd",
+              "matched_excerpt": "The catalogue introduction describes a wartime address after an evacuation. This introduction is original synthetic fixture prose and is not a historical quotation.",
+              "start_ms": 5000,
+              "end_ms": 19850,
+              "start_word_id": "w0000",
+              "end_word_id": "w0022",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.03201844
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 120000,
+              "end_ms": 141350,
+              "start_word_id": "w0023",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.03200205
+            },
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9bb55815620e8058be82c60d",
+              "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+              "start_ms": 95000,
+              "end_ms": 105300,
+              "start_word_id": "w0034",
+              "end_word_id": "w0049",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01587302
+            }
+          ]
+        },
+        {
+          "id": "semantic",
+          "query": "Refusing to capitulate despite an invasion across every part of our homeland",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 0.5,
+          "negative_correct": null,
+          "latency_ms": 10.638625011779368,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Steam railway interview — synthetic offline",
+              "event_id": "event-railway",
+              "event_date": null,
+              "asset_id": "asset-railway",
+              "recording_version_id": "railway",
+              "transcript_revision_id": "tr-railway-1",
+              "segment_id": "seg-2e7bd4378db4047185e39ca4",
+              "matched_excerpt": "The steam locomotive pulled passenger carriages across the valley. Workers shovelled coal into the firebox and watched the pressure gauge. The station master announced departures while families waited on the platform for the morning train.",
+              "start_ms": 6000,
+              "end_ms": 28650,
+              "start_word_id": "w0000",
+              "end_word_id": "w0034",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.586,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#railway",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 18000,
+              "end_ms": 39350,
+              "start_word_id": "w0000",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 120000,
+              "end_ms": 141350,
+              "start_word_id": "w0023",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "misremembered",
+          "query": "That wartime promise to resist on the coast and in towns, perhaps after a defeat",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 0.5,
+          "negative_correct": null,
+          "latency_ms": 11.046874977182597,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-6a78031f99c246c405c0d4dd",
+              "matched_excerpt": "The catalogue introduction describes a wartime address after an evacuation. This introduction is original synthetic fixture prose and is not a historical quotation.",
+              "start_ms": 5000,
+              "end_ms": 19850,
+              "start_word_id": "w0000",
+              "end_word_id": "w0022",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.03226646
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 18000,
+              "end_ms": 39350,
+              "start_word_id": "w0000",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.01639344
+            },
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9bb55815620e8058be82c60d",
+              "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+              "start_ms": 95000,
+              "end_ms": 105300,
+              "start_word_id": "w0034",
+              "end_word_id": "w0049",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.01612903
+            },
+            {
+              "title": "We Shall Fight on the Beaches — synthetic reading fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-full",
+              "transcript_revision_id": "tr-churchill-full-1",
+              "segment_id": "seg-f0d091df7eee754d2d081773",
+              "matched_excerpt": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+              "start_ms": 120000,
+              "end_ms": 141350,
+              "start_word_id": "w0023",
+              "end_word_id": "w0055",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.2468,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-full",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "edited",
+          "query": "we shall never surrender",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 9.942667034920305,
+          "boundary_errors": [
+            {
+              "version": "churchill-edit",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "We Shall Fight on the Beaches — synthetic edited fixture",
+              "event_id": "churchill-1940-06-04",
+              "event_date": "1940-06-04",
+              "asset_id": "asset-churchill",
+              "recording_version_id": "churchill-edit",
+              "transcript_revision_id": "tr-churchill-edit-1",
+              "segment_id": "seg-baa9234cad219982e1e4f055",
+              "matched_excerpt": "we shall never surrender.",
+              "start_ms": 36850,
+              "end_ms": 39350,
+              "start_word_id": "w0029",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4326,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#churchill-edit",
+              "score": 0.03278689
+            }
+          ]
+        },
+        {
+          "id": "orchard",
+          "query": "Growing fruit for the village",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.40566700976342,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Orchard oral history — synthetic",
+              "event_id": "event-orchard",
+              "event_date": null,
+              "asset_id": "asset-orchard",
+              "recording_version_id": "orchard",
+              "transcript_revision_id": "tr-orchard-1",
+              "segment_id": "seg-c9fca360a39e8144afbe7762",
+              "matched_excerpt": "The gardeners planted apple trees beside the river. Each spring they checked the soil and pruned damaged branches. Rainfall helped the roots grow through summer. The harvest supplied fresh fruit to the village market and local schools.",
+              "start_ms": 4000,
+              "end_ms": 27950,
+              "start_word_id": "w0000",
+              "end_word_id": "w0036",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.6311,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#orchard",
+              "score": 0.03278689
+            }
+          ]
+        },
+        {
+          "id": "flood",
+          "query": "Residents rescued by boat when their homes filled with water",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.718416015151888,
+          "boundary_errors": [],
+          "results": [
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9b580abed4f5c9ee2ee33082",
+              "matched_excerpt": "Rising water entered the houses during the night. Volunteers carried families to higher ground in small boats. The community centre provided dry blankets and warm meals while residents waited for the river to fall.",
+              "start_ms": 10000,
+              "end_ms": 32000,
+              "start_word_id": "w0000",
+              "end_word_id": "w0033",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.03252247
+            },
+            {
+              "title": "Flood evacuation account — synthetic partial transcript",
+              "event_id": "event-flood",
+              "event_date": null,
+              "asset_id": "asset-flood",
+              "recording_version_id": "flood",
+              "transcript_revision_id": "tr-flood-1",
+              "segment_id": "seg-9bb55815620e8058be82c60d",
+              "matched_excerpt": "The damaged bridge reopened after engineers inspected the stone supports. Residents returned to repair their homes.",
+              "start_ms": 95000,
+              "end_ms": 105300,
+              "start_word_id": "w0034",
+              "end_word_id": "w0049",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "low_transcript_confidence_review",
+                "metadata_conflict",
+                "partial_timed_coverage",
+                "poor_audio_simulated"
+              ],
+              "coverage_fraction": 0.2801,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#flood",
+              "score": 0.03252247
+            }
+          ]
+        },
+        {
+          "id": "offline",
+          "query": "steam locomotive",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.739749995991588,
+          "boundary_errors": [
+            {
+              "version": "railway",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "Steam railway interview — synthetic offline",
+              "event_id": "event-railway",
+              "event_date": null,
+              "asset_id": "asset-railway",
+              "recording_version_id": "railway",
+              "transcript_revision_id": "tr-railway-1",
+              "segment_id": "seg-2e7bd4378db4047185e39ca4",
+              "matched_excerpt": "steam locomotive",
+              "start_ms": 6650,
+              "end_ms": 7850,
+              "start_word_id": "w0001",
+              "end_word_id": "w0002",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.586,
+              "availability_state": "offline",
+              "permitted_actions": [
+                "read_transcript",
+                "simulate_retrieval_request"
+              ],
+              "source_reference": "data/PROVENANCE.md#railway",
+              "score": 0.03278689
+            }
+          ]
+        },
+        {
+          "id": "restricted-allowed",
+          "query": "Operation Marigold",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.747082997113466,
+          "boundary_errors": [
+            {
+              "version": "restricted",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            }
+          ],
+          "results": [
+            {
+              "title": "Closed meeting — synthetic restricted",
+              "event_id": "event-restricted",
+              "event_date": null,
+              "asset_id": "asset-restricted",
+              "recording_version_id": "restricted",
+              "transcript_revision_id": "tr-restricted-1",
+              "segment_id": "seg-b98f4b35b4feabb6e2d12e6e",
+              "matched_excerpt": "Operation Marigold",
+              "start_ms": 3000,
+              "end_ms": 4200,
+              "start_word_id": "w0000",
+              "end_word_id": "w0001",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.5221,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#restricted",
+              "score": 0.03278689
+            }
+          ]
+        },
+        {
+          "id": "french-lexical",
+          "query": "bibliothèque municipale",
+          "positive": true,
+          "recording_hit_at_5": true,
+          "segment_hit_at_5": true,
+          "reciprocal_rank": 1.0,
+          "negative_correct": null,
+          "latency_ms": 10.580125031992793,
+          "boundary_errors": [
+            {
+              "version": "french",
+              "start_error_ms": 0,
+              "end_error_ms": 0
+            },
+            {
+              "version": "french",
+              "start_error_ms": 22350,
+              "end_error_ms": 28850
+            }
+          ],
+          "results": [
+            {
+              "title": "Community library opening — synthetic mixed language",
+              "event_id": "event-french",
+              "event_date": null,
+              "asset_id": "asset-french",
+              "recording_version_id": "french",
+              "transcript_revision_id": "tr-french-1",
+              "segment_id": "seg-04aefcdd0400a099df13822d",
+              "matched_excerpt": "bibliothèque municipale",
+              "start_ms": 2650,
+              "end_ms": 3850,
+              "start_word_id": "w0001",
+              "end_word_id": "w0002",
+              "language": "fr",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "exact_phrase",
+              "quality_flags": [
+                "partial_timed_coverage",
+                "semantic_language_not_validated"
+              ],
+              "coverage_fraction": 0.4977,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#french",
+              "score": 0.03278689
+            },
+            {
+              "title": "Community library opening — synthetic mixed language",
+              "event_id": "event-french",
+              "event_date": null,
+              "asset_id": "asset-french",
+              "recording_version_id": "french",
+              "transcript_revision_id": "tr-french-1",
+              "segment_id": "seg-2541eb8ab125a2a45e3148c8",
+              "matched_excerpt": "The town library welcomes children and offers books about the local community.",
+              "start_ms": 25000,
+              "end_ms": 32700,
+              "start_word_id": "w0021",
+              "end_word_id": "w0032",
+              "language": "en",
+              "evidence_status": "synthetic_fixture",
+              "resolution": "source_window",
+              "quality_flags": [
+                "partial_timed_coverage"
+              ],
+              "coverage_fraction": 0.4977,
+              "availability_state": "online",
+              "permitted_actions": [
+                "read_transcript",
+                "media_not_in_demo"
+              ],
+              "source_reference": "data/PROVENANCE.md#french",
+              "score": 0.01612903
+            }
+          ]
+        },
+        {
+          "id": "negative",
+          "query": "quantum superconducting qubits",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 10.565000004135072,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "restricted-denied",
+          "query": "Marigold",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 9.907540981657803,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "unknown-rights",
+          "query": "Azurestone",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 9.55329101998359,
+          "boundary_errors": [],
+          "results": []
+        },
+        {
+          "id": "untimed-only",
+          "query": "brass band harbour",
+          "positive": false,
+          "recording_hit_at_5": false,
+          "segment_hit_at_5": false,
+          "reciprocal_rank": 0,
+          "negative_correct": true,
+          "latency_ms": 10.283999959938228,
+          "boundary_errors": [],
+          "results": []
+        }
+      ]
+    }
+  ]
+}
